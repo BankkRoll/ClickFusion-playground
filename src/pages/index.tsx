@@ -11,13 +11,13 @@ export default function Home() {
   > | null>(null);
 
   return (
-    <main className="flex flex-col min-h-screen p-4 dark:bg-darkBackground bg-lightBackground">
+    <main className="flex flex-col min-h-screen p-12 dark:bg-darkBackground bg-lightBackground">
       <div className="flex-grow flex">
         <SettingsPanel
           setSelectedEffect={setSelectedEffect}
           setParticleOptions={setParticleOptions}
         />
-        <section className="flex-grow flex flex-col">
+        <section className="flex-grow flex flex-col items-center justify-center">
           <Tabs className="h-[90vh]" defaultValue="preview">
             <TabsList className="mb-4 flex justify-center">
               <TabsTrigger value="preview">Preview</TabsTrigger>
@@ -31,6 +31,7 @@ export default function Home() {
               {selectedEffect ? (
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                   <ClickFusion
+                    key={selectedEffect.name}
                     effect={selectedEffect.name}
                     particleOptions={particleOptions}
                   >
