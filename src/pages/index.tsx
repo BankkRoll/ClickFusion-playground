@@ -17,7 +17,7 @@ export default function Home() {
           setSelectedEffect={setSelectedEffect}
           setParticleOptions={setParticleOptions}
         />
-        <section className="flex-grow flex flex-col items-center justify-center">
+        <section className="flex-grow flex flex-col">
           <Tabs className="h-[90vh]" defaultValue="preview">
             <TabsList className="mb-4 flex justify-center">
               <TabsTrigger value="preview">Preview</TabsTrigger>
