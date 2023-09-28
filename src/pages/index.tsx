@@ -11,7 +11,7 @@ export default function Home() {
   > | null>(null);
 
   return (
-    <main className="flex flex-col min-h-screen p-12 dark:bg-darkBackground bg-lightBackground">
+    <main className="flex flex-col min-h-screen p-4 dark:bg-darkBackground bg-lightBackground">
       <div className="flex-grow flex">
         <SettingsPanel
           setSelectedEffect={setSelectedEffect}
