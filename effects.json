@@ -1,0 +1,54 @@
+{
+    "effects": [
+      {
+        "name": "coolmode",
+        "properties": [
+          { "name": "particle", "type": "string", "optional": true, "default": "customParticleImgURL" },
+          { "name": "size", "type": "number", "optional": true, "default": 40 },
+          { "name": "speedHorz", "type": "number", "optional": true, "default": 5 },
+          { "name": "speedUp", "type": "number", "optional": true, "default": 10 }
+        ]
+      },
+      {
+        "name": "rainmode",
+        "properties": [
+          { "name": "particle", "type": "string", "optional": true, "default": "customParticleImgURL" },
+          { "name": "size", "type": "number", "optional": true, "default": 50 },
+          { "name": "speedDown", "type": "number", "optional": true, "default": 5 },
+          { "name": "particleCount", "type": "number", "optional": true, "default": 30 }
+        ]
+      },
+      {
+        "name": "partymode",
+        "properties": [
+          { "name": "size", "type": "number", "optional": true, "default": 20 },
+          { "name": "particleCount", "type": "number", "optional": true, "default": 45 }
+        ]
+      },
+      {
+        "name": "codemode",
+        "properties": [
+          { "name": "particleCount", "type": "number", "optional": true, "default": 40 },
+          { "name": "size", "type": "number", "optional": true, "default": 10 },
+          { "name": "color", "type": "string", "optional": true, "default": "light", "note": "Choose between “light“ and “dark“ (dark if not provided)" }
+        ]
+      },
+      {
+        "name": "confettimode",
+        "properties": [
+          { "name": "particleCount", "type": "number", "optional": true, "default": 100 },
+          { "name": "speedDown", "type": "number", "optional": true, "default": 5 },
+          { "name": "color", "type": "string", "optional": true, "default": "purple", "note": "Choose between “rainbow“, “red”, “orange”, “yellow”, “green”, “blue”, “purple” (rainbow if not provided)"  }
+        ]
+      },
+      {
+        "name": "dragmode",
+        "properties": [
+          { "name": "width", "type": "number", "optional": true, "default": 400 },
+          { "name": "height", "type": "number", "optional": true, "default": 400 },
+          { "name": "color", "type": "string", "optional": true, "default": "light", "note": "Choose between “light“ and “dark“ (transparent if not provided)" }
+        ]
+      }
+    ]
+  }
+  
