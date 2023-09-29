@@ -3,16 +3,16 @@
       {
         "name": "coolmode",
         "properties": [
-          { "name": "particle", "type": "string", "optional": true, "default": "customParticleImgURL" },
-          { "name": "size", "type": "number", "optional": true, "default": 40 },
-          { "name": "speedHorz", "type": "number", "optional": true, "default": 5 },
-          { "name": "speedUp", "type": "number", "optional": true, "default": 10 }
+          { "name": "particle", "type": "string", "optional": true, "default": "https://pbs.twimg.com/profile_images/1680720685239287808/dVQorGnG_400x400.jpg" },
+          { "name": "size", "type": "number", "optional": true, "default": 0 },
+          { "name": "speedHorz", "type": "number", "optional": true, "default": 0 },
+          { "name": "speedUp", "type": "number", "optional": true, "default": 0 }
         ]
       },
       {
         "name": "rainmode",
         "properties": [
-          { "name": "particle", "type": "string", "optional": true, "default": "customParticleImgURL" },
+          { "name": "particle", "type": "string", "optional": true, "default": "https://pbs.twimg.com/profile_images/1680720685239287808/dVQorGnG_400x400.jpg" },
           { "name": "size", "type": "number", "optional": true, "default": 50 },
           { "name": "speedDown", "type": "number", "optional": true, "default": 5 },
           { "name": "particleCount", "type": "number", "optional": true, "default": 30 }
